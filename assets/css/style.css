@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-main {
+body {
     background-color: #d9dcd6;
 }
 
@@ -18,9 +18,6 @@ main {
 h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-h1{
     color: #d9dcd6;
 }
 
@@ -39,15 +36,6 @@ h1{
 .header section li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 .hero {
@@ -85,6 +73,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,6 +91,7 @@ p {
 }
 
 .content section {
+    font-size:16px;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
