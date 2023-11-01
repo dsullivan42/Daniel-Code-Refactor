@@ -1,43 +1,46 @@
+
+/* The * is a universal selector, this code clears the padding and the margins */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* This sets the background color for the body */
 body {
     background-color: #d9dcd6;
 }
-
+/* sets the padding, font, background color, and font color for the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* sets the placement of h1 to an inline block, the font size, and the color of the font */
 h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
 
-.header section {
-    padding-top: 15px;
+/* sets the padding, the margin, floats to the right, sets the font style and the size of the font */
+.header nav {
+    padding-top:15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header section ul {
+/* removes list symbols */
+.header ul {
     list-style-type: none;
 }
-
-.header section li {
+/* sets the li within the header to an inline block, and sets the margin */
+.header li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* sets the size of the class hero, also sets the background image, covers the size of the area, sets the margin, and centers on the position of the background */
 .hero {
     height: 800px;
     width: 100%;
@@ -46,23 +49,23 @@ h1 {
     background-size: cover;
     background-position: center;
 }
-
+/* floats to the left, with a 25 px margin right */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* floats to the right, with a 25 px margin left */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* sets the width, puts the display on an inline-block, and sets the margin for the class content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* sets the margin, the padding, clear to both, float right, sets the width and height, as well as the font style and background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -73,28 +76,28 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefits section {
+/* sets the margin and the text color for the divs within the benefits class */
+.benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* sets the margin and the alignment for the text for the h3 within the benefits class */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* sets the display type, the margin, and the maxiumum width for the img within the benefits class */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* sets the font size */
 p{
     font-size:16px;
 }
-
-.content section {
+/* sets the margin, the padding, the height, the font style, the background color, and the text color for the div within the content class */
+.content div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -102,11 +105,11 @@ p{
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* sets the max height for the img within the content class */
 .content img {
     max-height: 200px;
 }
-
+/* sets the margin and the font-size for the h2 within the content class */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
